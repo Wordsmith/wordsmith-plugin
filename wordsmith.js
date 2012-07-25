@@ -1,3 +1,10 @@
+/*
+ * Wordsmith v1.0
+ * getwordsmith.co
+ *
+ * Copyright (c) Rich Hollis, Jess Eddy
+ * Available under the BSD and MIT licenses: getwordsmith.co/license/
+ */
 (function ($) {
     var $question, lastSelection, settings;
     var host = "http://lookup.getwordsmith.co/";
@@ -107,5 +114,4 @@
             return false;
         }
     }
-
 })(jQuery);
