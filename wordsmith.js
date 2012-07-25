@@ -95,7 +95,7 @@
 
             var $lookup = $('#' + appName + '-lookup');
             $lookup.click(function (e) {
-                var lookupUrl = host + "/definition/" + text;
+                var lookupUrl = host + "definition/" + text;
                 var left = (screen.width - settings.width) / 2;
                 var top = (screen.height - settings.height) / 2;
                 window.open(lookupUrl, appName, "width=" + settings.width + ",height=" + settings.height + ",left=" + left + ",top=" + top + ",location=1" + ",scrollbars=1");
