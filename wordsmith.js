@@ -1,4 +1,4 @@
-/*
+/* @preserve
  * Wordsmith v1.0
  * getwordsmith.co
  *
@@ -126,7 +126,7 @@
 
                $span.parent().append($question[0]);
 
-               // prevent us from being removed by body mouseupatt
+               // prevent us from being removed by BODY mouseup
                $('#' + appName + '-lookup').on("mousedown", function(event) {
                     wordsmithSelectorClick = true;
                     event.preventDefault();
