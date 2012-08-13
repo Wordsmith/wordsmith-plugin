@@ -18,7 +18,7 @@
                'maxWordLength': 18,
                'popupWidth': 600,
                'popupHeight': 400,
-               'lookupImage': "/images/Question_Mark.png",
+               'lookupImage': "http://getwordsmith.co/images/Question_Mark.png",
                'lookupMessage': "Lookup definition",
                'lookupUrl': "http://define.getwordsmith.co/" + wordSymbol
           }, options);
